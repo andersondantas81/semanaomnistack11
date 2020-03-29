@@ -1,0 +1,24 @@
+**Node**
+npm init -y
+npm install express
+node index.js(para executar)
+npm install knex 
+npm install sqlite3
+npx knex init(o npx executa um pacote, diferente do npm que instala)
+npx knex migrate:make create_ongs
+npx knex migrate:latest
+npx knex migrate:make create_incidents
+npx knex migrate:latest
+npx knex migrate:rollback(desfaz a ultima execução do latest)
+npx knex migrate:status(lista as migrations que já foram executadas)
+Obs.: "ao executar deu um erro, dizendo que a tabela ongs não existia,
+deletei o banco e execute npx knex migrate:latest"
+npm install cors(determina quem pode acessar a aplicação)
+
+
+
+====================================================
+**React**
+npx create-react-app frontend
+npm start(executa script start do package.json)
+
