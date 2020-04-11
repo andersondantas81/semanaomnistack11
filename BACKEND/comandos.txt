@@ -21,4 +21,6 @@ npm install cors(determina quem pode acessar a aplicação)
 **React**
 npx create-react-app frontend
 npm start(executa script start do package.json)
-
+npm install react-icons
+npm install react-router-dom
+npm install axios
